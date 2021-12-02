@@ -1,6 +1,6 @@
 node{
     stage('checkout Scm'){
-    git credentialsId: 'LahbiziSafae', url: 'https://github.com/LahbiziSafae/web-app-Docker'    }
+    git credentialsId: 'LahbiziSafae', url: 'https://github.com/ChahidImane/web-app-docker.git'    }
     
     stage('build docker image'){
     sh 'docker build -t safaelah/my-app:2.0.0 .'
